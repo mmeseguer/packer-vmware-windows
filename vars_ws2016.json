@@ -1,0 +1,18 @@
+{
+    "vsphere_server": "vcsa.sobrebits.local",
+    "vsphere_user": "packer@vsphere.local",
+    "vsphere_password": "Vsphere.12345",
+    "vsphere_template_name": "Template-Windows2016",
+    "vsphere_folder": "Templates",
+    "vsphere_dc_name": "SobrebitsDatacenter",
+    "vsphere_compute_cluster": "SobrebitsCluster",
+    "vsphere_host": "esxi01.sobrebits.local",
+    "vsphere_portgroup_name": "VM Network",
+    "vsphere_datastore": "Datastore1",
+    "winadmin_password": "Template.12345",
+    "cpu_num": "2",
+    "mem_size": "4096",
+    "disk_size": "32768",
+    "os_iso_path": "[Datastore1]_ISOs/Windows2016.iso",
+    "vmtools_iso_path":"[Datastore1]_ISOs/vmtools.iso"
+}
